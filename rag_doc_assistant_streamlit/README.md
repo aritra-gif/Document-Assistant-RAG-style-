@@ -29,11 +29,3 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-
----
-
-## Interview notes (plain language)
-- RAG = retrieve evidence first, then answer using that evidence
-- chunking matters a lot
-- measure retrieval (Recall@K / MRR)
-- retrieved text is untrusted (basic injection patterns should be filtered)
